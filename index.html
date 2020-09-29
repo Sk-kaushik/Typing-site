@@ -1,50 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <script src="./js/index.js" defer></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="header">
-        <h2>Learn To Type</h2>
+      <h2>Learn To Type</h2>
     </div>
     <div class="count">
-        <div class="speed">
-            <h2>Speed</h2>
-            <h4 class="speedCount">0</h4><span> wpm</span>
-        </div>
-        <div class="error">
-            <h2>Error Count</h2>
-            <h4 class="errorCount"> 0</h4> /
-            <h4 class="totalCount"> 0</h4>
-
-        </div>
-        <div class="accuracy">
-            <h2>Correct</h2>
-            <h4 class="accuracyCount">0%</h4>
-        </div>
-        <div class="time">
-            <h2>Time</h2>
-            <label id="minutes">00</label>:<label id="seconds">00</label>
-        </div>
+      <div class="speed">
+        <h2>Speed</h2>
+        <h4 class="speedCount">0</h4>
+        <span> wpm</span>
+      </div>
+      <div class="error">
+        <h2>Error Count</h2>
+        <h4 class="errorCount">0</h4>
+        /
+        <h4 class="totalCount">0</h4>
+      </div>
+      <div class="accuracy">
+        <h2>Accuracy</h2>
+        <h4 class="accuracyCount">0</h4>
+        %
+      </div>
+      <div class="time">
+        <h2>Time</h2>
+        <label id="minutes">00</label>:<label id="seconds">00</label>
+      </div>
     </div>
     <div class="word-graph">
-        <p class="randomQuote"></p>
+      <p class="randomQuote"></p>
     </div>
     <div class="word-input">
-        <textarea type="text" id="textInput"> </textarea>
+      <textarea type="text" id="textInput"> </textarea>
     </div>
     <div class="start">
-        <button class="startBtn hover">Start</button>
-        <button class="stopBtn">Stop</button>
+      <button class="startBtn hover">Start</button>
+      <button class="stopBtn">Stop</button>
     </div>
-</body>
-
+  </body>
 </html>
